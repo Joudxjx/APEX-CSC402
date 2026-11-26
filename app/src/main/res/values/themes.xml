@@ -1,9 +1,15 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.APEX" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+<resources>
+
+    <style name="Base.Theme.Apex" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#0EDDA5</item>
+        <item name="colorOnPrimary">#010E0C</item>
+        <item name="colorSecondary">#08527D</item>
+        <item name="colorOnSecondary">#DDFDF6</item>
+
     </style>
 
-    <style name="Theme.APEX" parent="Base.Theme.APEX" />
+    <style name="Theme.Apex" parent="Base.Theme.Apex" />
+
 </resources>

@@ -1,0 +1,169 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010E0C"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <!-- Logo Icon -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="◎"
+            android:textColor="#0EDDA5"
+            android:textSize="46sp"
+            android:gravity="center"/>
+
+        <!-- App Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APEX"
+            android:textColor="#0EDDA5"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.08"
+            android:layout_marginTop="5dp"/>
+
+        <!-- Page Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textColor="#DDFDF6"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="22dp"/>
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join APEX and enjoy your movies"
+            android:textColor="#9AB8B3"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- Full Name -->
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@drawable/input_background"
+            android:hint="Full Name"
+            android:textColor="#DDFDF6"
+            android:textColorHint="#9AB8B3"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:inputType="textPersonName"/>
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/input_background"
+            android:hint="Email Address"
+            android:textColor="#DDFDF6"
+            android:textColorHint="#9AB8B3"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"/>
+
+        <!-- Phone Number -->
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/input_background"
+            android:hint="Phone Number"
+            android:textColor="#DDFDF6"
+            android:textColorHint="#9AB8B3"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:inputType="phone"/>
+
+        <!-- Password -->
+        <EditText
+
+            android:id="@+id/etPassword"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/input_background"
+            android:hint="Password"
+            android:textColor="#DDFDF6"
+            android:textColorHint="#9AB8B3"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:inputType="textPassword"/>
+
+        <!-- Confirm Password -->
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/input_background"
+            android:hint="Confirm Password"
+            android:textColor="#DDFDF6"
+            android:textColorHint="#9AB8B3"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:inputType="textPassword"/>
+
+        <!-- Create Account Button -->
+        <Button
+            android:id="@+id/btnCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_background"
+            android:text="CREATE ACCOUNT"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:backgroundTint="@null"
+            android:textColor="#010E0C"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+
+        <!-- Login Link -->
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="Already have an account? Login"
+            android:textColor="#DDFDF6"
+            android:textSize="14sp"
+            android:clickable="true"
+            android:focusable="true"/>
+
+    </LinearLayout>
+
+</ScrollView>
